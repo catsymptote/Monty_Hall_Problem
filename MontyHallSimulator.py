@@ -4,25 +4,25 @@ import random
 # Variables you should change as you please.
 #----------------------------
 # How many times the simulation runs.
-runs = 100000
+runs 		= 1000
 
 # Strategy for choosing doors (0 == stay, 1 == change).
-strategy = 1
+strategy 	= 1
 #----------------------------
 
 
 # Cars are good, goats are bad.
-goat    = 0
-car     = 1
+goat    	= 0
+car     	= 1
 
 # Amount of doors -1 (3-1 == 3 doors).
-doorCount = 3-1
+doorCount 	= 3-1
 
 # List of doors (0 == goat, 1 == car).
 #doors   = genDoors(doorCount)
 
-chosenDoor = 0
-finalDoor = 0
+chosenDoor  = 0
+finalDoor 	= 0
 
 
 # Generate the empty list of goats (0)

@@ -4,7 +4,7 @@ import random
 # Variables you should change as you please.
 #----------------------------
 # How many times the simulation runs.
-runs 		= 1000
+runs 		= 10000
 
 # Strategy for choosing doors (0 == stay, 1 == change).
 strategy 	= 1
